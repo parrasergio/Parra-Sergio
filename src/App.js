@@ -1,22 +1,21 @@
-
+//import React, { useState } from 
+//import Counter from './components/Counter/Counter'
 import './App.css';
+import NavBar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContaine';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
+      <ItemListContainer greating='Lo que Necesites'/>
       <header className="App-header">
         <p>
           Electronica Yuki
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
       </header>
+      {/*<Counter initial={0} />*/}
     </div>
   );
 }
