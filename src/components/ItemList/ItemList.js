@@ -1,9 +1,9 @@
 const ItemList = () => {
     return (
         <ul>
-            <li>elemento 1</li>
-            <li>elemento 2</li>
-            <li>elemento 3</li>
+            <li>Procesadores</li>
+            <li>Coolers</li>
+            <li>Gabinetes</li>
         </ul>
     )
 }

@@ -1,5 +1,5 @@
-//import React, { useState } from 
-//import Counter from './components/Counter/Counter'
+import React from 'react';
+//import Counter from '../src/components/Counter/Counter.js'
 import './App.css';
 import NavBar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContaine';
@@ -15,7 +15,7 @@ function App() {
         </p>
       
       </header>
-      {/*<Counter initial={0} />*/}
+      {/*<Counter initial={0} stock={10} title='contador' />*/}
     </div>
   );
 }
